@@ -36,7 +36,7 @@ demonstrations
 cybersecurity learning
 SOC architecture understanding
 # 🧠 Core Features
-✅ Unified Threat Engine
+# ✅ Unified Threat Engine
 
 Centralized threat analysis engine responsible for:
 
@@ -44,7 +44,7 @@ maintaining per-IP risk scores
 correlating suspicious activities
 escalating threat severity
 tracking malicious behavior history
-✅ SSH Brute Force Detection
+# ✅ SSH Brute Force Detection
 
 Monitors:
 
