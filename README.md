@@ -55,7 +55,7 @@ Detects:
 failed SSH logins
 repeated authentication attempts
 brute-force behavior
-✅ Packet Sniffing & Port Scan Detection
+# ✅ Packet Sniffing & Port Scan Detection
 
 Uses Scapy to:
 
@@ -74,7 +74,7 @@ Monitored ports include:
 443 (HTTPS)
 3306 (MySQL)
 3389 (RDP)
-✅ Real-Time Threat Scoring
+# ✅ Real-Time Threat Scoring
 
 Every suspicious event increases an IP’s risk score.
 
@@ -87,7 +87,7 @@ CRITICAL
 
 This simulates real SOC/SIEM correlation logic.
 
-✅ Event Correlation
+# ✅ Event Correlation
 
 The system correlates:
 
@@ -97,7 +97,7 @@ high-frequency suspicious events
 
 and automatically escalates threats.
 
-✅ SQLite Persistence
+# ✅ SQLite Persistence
 
 All alerts, events, and metrics are stored inside:
 
@@ -111,7 +111,7 @@ CPU usage
 memory usage
 uptime
 packet counts
-✅ Flask Web Dashboard
+# ✅ Flask Web Dashboard
 
 Built-in web interface displaying:
 
@@ -124,14 +124,14 @@ packet statistics
 
 Dashboard auto-refreshes every 5 seconds.
 
-✅ Network Scanner
+# ✅ Network Scanner
 
 Uses Nmap to:
 
 discover reachable hosts
 identify open services
 monitor network visibility
-✅ Report Generation
+# ✅ Report Generation
 
 Automatically generates:
 
@@ -144,7 +144,7 @@ audits
 demonstrations
 forensic review
 academic evaluation
-✅ Attack Simulation Mode
+# ✅ Attack Simulation Mode
 
 Includes a built-in attack simulator capable of generating:
 
@@ -178,7 +178,7 @@ sqlite3
 python-nmap
 threading
 logging
-📦 Installation
+# 📦 Installation
 Clone Repository
 git clone <repository-url>
 cd MINI_SOC
